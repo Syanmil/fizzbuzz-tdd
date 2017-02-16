@@ -3,7 +3,6 @@ const assertArrays = require('chai-arrays');
 chai.use(assertArrays)
 const expect = require('chai').expect
 const fizz = require('../fizzbuzz.js')
-console.log(fizz.buzz);
 
 describe("fizzbuzz testing", function() {
   it('expect fizzbuzz to be function', function() {
